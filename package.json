@@ -1,0 +1,22 @@
+{
+  "name": "algoritmosordenacionjs",
+  "version": "1.0.0",
+  "description": "MasterClass algoritmos de ordenación en javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baxone/algoritmosOrdenacionJs.git"
+  },
+  "author": "Juan Antonio Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Baxone/algoritmosOrdenacionJs/issues"
+  },
+  "homepage": "https://github.com/Baxone/algoritmosOrdenacionJs#readme",
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
+}
