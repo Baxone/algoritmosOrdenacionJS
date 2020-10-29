@@ -1,4 +1,4 @@
-function orderBySelection(pArray) {
+const orderBySelection = pArray => {
     for (let i = 0; i < pArray.length; i++) {
         let min = i;
         for (let j = i + 1; j < pArray.length; j++) {
@@ -13,7 +13,7 @@ function orderBySelection(pArray) {
     return pArray;
 }
 
-function ordeByInsertion(pArray) {
+const ordeByInsertion = pArray => {
     for (let i = 0; i < pArray.length; i++) {
         let position = i;
         let currentValue = pArray[position];
@@ -30,7 +30,7 @@ function ordeByInsertion(pArray) {
 }
 
 
-function orderByBubble(pArray) {
+const orderByBubble = pArray => {
     for (let i = 0; i < pArray.length; i++) {
         for (let j = 0; j < pArray.length - 1 - i; j++) {
             if (pArray[j] > pArray[j + 1]) {
@@ -44,6 +44,24 @@ function orderByBubble(pArray) {
     return pArray;
 }
 
+const quickSort = pArray => {
+    if (pArray.length < 1) {
+        return pArray
+    }
+    const arrayLeft = new Array();
+    const arrayRight = new Array();
+    let pivot = pArray[0];
 
+    for (let i = 1; i < pArray.length; i++) {
+        if (pArray[i] < pivot) {
+            arrayLeft.push(pArray[i]);
+        } else {
+            arrayRight.push(pArray[i]);
+        }
+    }
 
-module.exports = { orderBySelection, ordeByInsertion, orderByBubble };
+    const arrayOrder = new Array()
+    return arrayOrder.concat(quickSort(arrayLeft), pivot, quickSort(arrayRight));
+}
+
+module.exports = { orderBySelection, ordeByInsertion, orderByBubble, quickSort };

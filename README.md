@@ -14,3 +14,11 @@
     - Repetimos este paso hasta que recorriendo el array de izquierda a derecha no encontremos un elemento desordenado.
 
 
+* Ordenación rápida (Quicksort) Divide y venceras.
+    - A partir de un elemento cualquiera del array llamado pivote, partimos el array en dos subconjuntos o subarrays.
+    - La forma de dividirlos es situar en el conjunto de la izquierda los menores al número elegido, y a la derecha los mayores. 
+    - El proceso se produce de forma recursiva hasta que solo me quede un elemento por subconjunto entonces el array estará ordenado.
+
+    
+
+
