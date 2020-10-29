@@ -1,3 +1,6 @@
+*** Algoritmos de ordenación realizados con javascript ***
+Este es un pequeño ejercicio realizando algoritmos de ordenación en javascript. Lo he realizado como preparación para una masterclass sobre algoritmia con javascript.
+
 * Ordenación por Selección.
     - Recorremos el array buscando el elemento mínimo según nuestro criterios de busqueda.
     - Intercambiamos ese elemento por el que esta en primera posición del array.
