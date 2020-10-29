@@ -9,7 +9,7 @@
             Si el elemento en el que estamos es menor que el que esta a su izquierda entonces intercambiamos el sitio. Lo seguimos moviendo a la izquierda hasta que tenga un elemento menor que él o hasta que lleguemos al final del array.
 
 * Ordenación por Burbuja.
-    - Como algoritmo de ordenación es el más ineficiente pero se explica como un forma de ordenar en algoritmía y por eso lo explico. El coste computacional no es más caro que el del desarrollador.
+    - Como algoritmo de ordenación es el más ineficiente pero se explica como un forma de ordenar en algoritmia y por eso lo explico. Solo es recomendable para arrays cortos.
     - Recorremos el array, y si encontramos, para cada elemento dos elementos que no esten en orden les permutamos sus posiciones.
     - Repetimos este paso hasta que recorriendo el array de izquierda a derecha no encontremos un elemento desordenado.
 
